@@ -1,0 +1,201 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: black;
+	font-family: Arial; 
+}
+
+#first {
+	height: 100vh;
+	background: url(../img/first.jpg) no-repeat center top/ cover;
+	color: #fff;
+}
+.container {
+	width: 1170px;
+	margin: 0px auto;
+}
+header{
+	padding: 50px;
+}
+.mail {
+	float: left;
+	font-size: 14px;
+	background: url(../img/mail.png) no-repeat left center;
+padding-left: 23px; 
+}
+a .mail {
+	color: #fff;
+}
+.phone {
+	float: right;
+	font-size: 16px;
+background: url(../img/phone.png) no-repeat left center;
+padding-left: 23px;
+
+}
+.name {
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	float: left;
+
+}
+
+.name span {
+	color: #ffb400;
+	margin-left: 315px;
+}
+h1 {
+	font-size: 41px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 260px; 
+}
+h1 span {
+	font-size: 31px;
+	font-weight: normal;
+	display: block;
+
+}
+.button {
+	background: #ffb400;
+	color: black;
+	font-size: 20px;
+	text-transform: uppercase;
+	border-radius: 3px;
+	padding: 20px 30px 20px 30px;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 0px auto;
+	display: block;
+	width: 205px;
+}
+
+h2 {
+	font-size: 33px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+#about {
+	padding-top: 60px;
+	padding-bottom: 100px;
+}
+.photo {
+	display: block;
+	margin: 50px auto 26px auto;
+}
+.about_title {
+font-size: 21px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+.text {
+text-align: center;
+width: 600px;
+margin: 0px auto;
+}
+.social_block {
+margin: 30px auto;
+width: 120px;
+}
+
+.clearfix:after {
+  content:'';
+  display: block;
+   width: 100%;
+}
+
+
+.social {
+	border-radius: 50%;
+	width: 31px;
+	height: 31px;
+	background: black;
+	display: block;
+	float: left;
+	text-align: center;
+	line-height: 31px;
+	margin-right: 11px;
+
+}
+.social:nth-child(3) {
+margin-right: 0px;
+}
+
+
+
+.social:hover {
+	background: #ffb400;
+	box-shadow: 0 0 0 4px #ffe4a3;
+}
+#order {
+	background: #f2f2f2;
+	margin: 60px 0px 100px 0px;
+}
+.form	{
+	width: 293px;
+	margin: 0px auto;
+	padding-top: 30px;
+
+}
+.sell {
+	border-radius: 3px;
+	background: #fff;
+	display: block;
+	height: 57px;
+	padding-left: 24px;
+	border: 0px;
+	box-shadow: 0px 3px 3px rgba(0,0,0,0.1);
+	margin-bottom: 14px;
+	width: 100%;
+	font-size: 15px;
+	box-sizing: border-box;
+}
+.act {
+	cursor: pointer; 
+	border: 0px;
+	font-size: 17px;
+	width: 100%;
+	box-sizing: border-box;
+
+}
+footer {
+	background: black;
+	color: #acacac;
+	padding: 40px 0px;
+
+}
+.credits {
+font-size: 14px;
+float: left;
+margin-left: 283px;
+
+
+
+}
+
+
+
+.name_to {
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+	float: left;
+
+
+}
+.name_to span {
+	color: #ffb400;
+	
+}
+
+.button:hover {
+	background: #ffa200;
+}
+.button:active {
+	background: #ff7e00;
+}
